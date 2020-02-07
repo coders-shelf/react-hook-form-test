@@ -1,10 +1,10 @@
 import React from "react";
-import PostForm from "./components/PostForm";
+import PostContainer from "./components/Post/PostContainer";
 
 function App() {
   return (
     <React.Fragment>
-      <PostForm />
+      <PostContainer />
     </React.Fragment>
   );
 }
